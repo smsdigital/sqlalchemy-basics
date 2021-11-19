@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "SQLAlchemy Basics"
+version = "1"
+description = "Some simple examples "
+authors = ["teamdataraiders@sms-digital.com"]
+license = "SMS digital GmbH"
+readme = "README.md"
+homepage = "https://www.sms-digital.com"
+repository = "https://github.com/smsdigital/df-backend"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+SQLAlchemy = "^1.4.25"
+pydantic = "^1.8.2"
+alembic = "^1.7.3"
+psycopg2 = "^2.9.2"
+
+[virtualenvs]
+in-project = true
